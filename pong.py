@@ -35,6 +35,10 @@ velocidadePad2_y = 500
 contadorEsquerdo = 0
 contadorDireito = 0
 
+#Colisão
+pad_collision_in_progress = False
+wall_collision_in_progress = False
+
 #Game Loop
 while(True):
     bola.x += velocidadeBola_x * janela.delta_time()
